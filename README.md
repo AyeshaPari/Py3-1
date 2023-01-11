@@ -10,9 +10,15 @@
 <h4 align="center">PY3 MARSHAL ENC ✨<a href="http://electron.atom.io" target="_blank"></a>.</h4>
 
 ```bash
-Clone this repository
+pkg update
+
+pkg upgrade
+
+rm -rf Py3 
+
 git clone https://github.com/SPOILT-X/Py3
 cd Py3
+
 python X.py
 ```
 
