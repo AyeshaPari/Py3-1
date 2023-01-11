@@ -24,3 +24,9 @@ if bit == "64bit":
  
         Main()
  
+elif bit == "32bit":
+        os.system('xdg-open https://www.github.com/SPOILT-X')
+
+        from Py3_32 import encryption
+
+        encryption()
