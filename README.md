@@ -17,6 +17,7 @@ pkg upgrade
 rm -rf Py3 
 
 git clone https://github.com/SPOILT-X/Py3
+
 cd Py3
 
 python X.py
