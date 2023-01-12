@@ -20,9 +20,10 @@ bit = platform.architecture()[0]
 if bit == "64bit":
         os.system('xdg-open https://www.github.com/SPOILT-X')
 
-        from Py3_enc import Main
- 
-        Main()
+        from Py3_enc import encryption
+
+        encryption()
+
  
 elif bit == "32bit":
         os.system('xdg-open https://www.github.com/SPOILT-X')
